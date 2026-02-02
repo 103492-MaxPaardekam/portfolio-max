@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Max Paardekam</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Animated Background -->
+    <div class="background">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+      <div class="nav-container">
+        <div class="logo">Max Paardekam</div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-content glass-card">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span class="greeting">Hello, I'm</span>
+            <span class="name">Max Paardekam</span>
+          </h1>
+          <p class="hero-subtitle">18 · Student at Grafish Lyceum Rotterdam</p>
+          <p class="hero-description">
+            Creative front-end developer crafting beautiful digital experiences
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-container glass-card">
+            <div class="profile-placeholder">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M20.59 22C20.59 18.13 16.74 15 12 15C7.26 15 3.41 18.13 3.41 22"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content glass-card">
+          <div class="about-text">
+            <h3>Student & Developer</h3>
+            <p>
+              I'm an 18-year-old student at
+              <strong>Grafish Lyceum Rotterdam</strong>, passionate about
+              creating stunning web experiences. I combine creativity with
+              technical skills to build modern, user-friendly interfaces.
+            </p>
+            <p>
+              My journey in web development started with a curiosity about how
+              beautiful websites work, and has grown into a passion for crafting
+              pixel-perfect, responsive designs that users love.
+            </p>
+            <div class="about-stats">
+              <div class="stat-item glass-mini">
+                <h4>18</h4>
+                <p>Years Old</p>
+              </div>
+              <div class="stat-item glass-mini">
+                <h4>10+</h4>
+                <p>Projects</p>
+              </div>
+              <div class="stat-item glass-mini">
+                <h4>2+</h4>
+                <p>Years Coding</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-card glass-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M12 2L2 7L12 12L22 7L12 2Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M2 17L12 22L22 17"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M2 12L12 17L22 12"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <h3>HTML & CSS</h3>
+            <p>
+              Expert in semantic HTML5 and modern CSS3, including Flexbox, Grid,
+              and animations
+            </p>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--progress: 90%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M4 4H20V20H4V4Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M8 12L12 16L16 8"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <h3>JavaScript</h3>
+            <p>
+              Proficient in modern JavaScript, ES6+, and interactive web
+              applications
+            </p>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--progress: 85%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M21 16V8C21 6.9 20.1 6 19 6H5C3.9 6 3 6.9 3 8V16C3 17.1 3.9 18 5 18H19C20.1 18 21 17.1 21 16Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path d="M3 10H21" stroke="currentColor" stroke-width="2" />
+              </svg>
+            </div>
+            <h3>Responsive Design</h3>
+            <p>
+              Creating fluid, mobile-first designs that work beautifully on all
+              devices
+            </p>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--progress: 88%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M12 6V12L16 14"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>
+              Understanding of design principles, typography, and user
+              experience
+            </p>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--progress: 80%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M9 19C9 19 8 19 8 18C8 17 9 13 13 13C17 13 18 17 18 18C18 19 17 19 17 19H9Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <circle
+                  cx="13"
+                  cy="8"
+                  r="3"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <h3>Git & GitHub</h3>
+            <p>Version control and collaborative development workflows</p>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--progress: 75%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M13 2L3 14H12L11 22L21 10H12L13 2Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <h3>Performance</h3>
+            <p>Optimization techniques for fast, efficient web applications</p>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--progress: 82%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card glass-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <rect
+                    x="3"
+                    y="3"
+                    width="18"
+                    height="18"
+                    rx="2"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M9 12L11 14L15 10"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Project One</h3>
+              <p>
+                A modern web application with sleek design and smooth animations
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">View Project</a>
+                <a href="#" class="project-link">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card glass-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <rect
+                    x="3"
+                    y="3"
+                    width="18"
+                    height="18"
+                    rx="2"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="3"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Project Two</h3>
+              <p>Responsive portfolio website with interactive elements</p>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">API</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">View Project</a>
+                <a href="#" class="project-link">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card glass-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <rect
+                    x="3"
+                    y="3"
+                    width="18"
+                    height="18"
+                    rx="2"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M8 12H16M12 8V16"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Project Three</h3>
+              <p>E-commerce landing page with glassmorphism design</p>
+              <div class="project-tags">
+                <span class="tag">UI/UX</span>
+                <span class="tag">Animation</span>
+                <span class="tag">Mobile</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">View Project</a>
+                <a href="#" class="project-link">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content glass-card">
+          <div class="contact-text">
+            <h3>Let's Connect</h3>
+            <p>
+              I'm always open to discussing new projects, creative ideas, or
+              opportunities to be part of your vision.
+            </p>
+            <div class="contact-info">
+              <div class="contact-item glass-mini">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M3 8L10.89 13.26C11.2187 13.4793 11.6049 13.5963 12 13.5963C12.3951 13.5963 12.7813 13.4793 13.11 13.26L21 8M5 19H19C19.5304 19 20.0391 18.7893 20.4142 18.4142C20.7893 18.0391 21 17.5304 21 17V7C21 6.46957 20.7893 5.96086 20.4142 5.58579C20.0391 5.21071 19.5304 5 19 5H5C4.46957 5 3.96086 5.21071 3.58579 5.58579C3.21071 5.96086 3 6.46957 3 7V17C3 17.5304 3.21071 18.0391 3.58579 18.4142C3.96086 18.7893 4.46957 19 5 19Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+                <span>your.email@example.com</span>
+              </div>
+              <div class="contact-item glass-mini">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <circle
+                    cx="12"
+                    cy="10"
+                    r="3"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+                <span>Rotterdam, Netherlands</span>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="#" class="social-link glass-mini">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0C5.374 0 0 5.373 0 12C0 17.302 3.438 21.8 8.207 23.387C8.806 23.498 9 23.126 9 22.81V20.576C5.662 21.302 4.967 19.16 4.967 19.16C4.421 17.773 3.634 17.404 3.634 17.404C2.545 16.659 3.717 16.675 3.717 16.675C4.922 16.759 5.556 17.912 5.556 17.912C6.626 19.746 8.363 19.216 9.048 18.909C9.155 18.134 9.466 17.604 9.81 17.305C7.145 17 4.343 15.971 4.343 11.374C4.343 10.063 4.812 8.993 5.579 8.153C5.455 7.85 5.044 6.629 5.696 4.977C5.696 4.977 6.704 4.655 8.997 6.207C9.954 5.941 10.98 5.808 12 5.803C13.02 5.808 14.047 5.941 15.006 6.207C17.297 4.655 18.303 4.977 18.303 4.977C18.956 6.63 18.545 7.851 18.421 8.153C19.191 8.993 19.656 10.064 19.656 11.374C19.656 15.983 16.849 16.998 14.177 17.295C14.607 17.667 15 18.397 15 19.517V22.81C15 23.129 15.192 23.504 15.801 23.386C20.566 21.797 24 17.3 24 12C24 5.373 18.627 0 12 0Z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="social-link glass-mini">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M20.447 20.452H16.893V14.883C16.893 13.555 16.866 11.846 15.041 11.846C13.188 11.846 12.905 13.291 12.905 14.785V20.452H9.351V9H12.765V10.561H12.811C13.288 9.661 14.448 8.711 16.181 8.711C19.782 8.711 20.448 11.081 20.448 14.166V20.452H20.447ZM5.337 7.433C4.193 7.433 3.274 6.507 3.274 5.368C3.274 4.23 4.194 3.305 5.337 3.305C6.477 3.305 7.401 4.23 7.401 5.368C7.401 6.507 6.476 7.433 5.337 7.433ZM7.119 20.452H3.555V9H7.119V20.452ZM22.225 0H1.771C0.792 0 0 0.774 0 1.729V22.271C0 23.227 0.792 24 1.771 24H22.222C23.2 24 24 23.227 24 22.271V1.729C24 0.774 23.2 0 22.222 0H22.225Z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="social-link glass-mini">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M23.953 4.57C23.069 4.95 22.124 5.203 21.129 5.313C22.143 4.707 22.923 3.747 23.292 2.606C22.341 3.17 21.287 3.582 20.165 3.805C19.269 2.853 17.992 2.25 16.574 2.25C13.857 2.25 11.654 4.453 11.654 7.173C11.654 7.543 11.699 7.898 11.781 8.238C7.691 8.036 4.066 6.094 1.64 3.162C1.213 3.865 0.974 4.707 0.974 5.607C0.974 7.298 1.844 8.789 3.162 9.666C2.355 9.641 1.596 9.419 0.934 9.049V9.109C0.934 11.506 2.627 13.499 4.88 13.936C4.467 14.05 4.031 14.112 3.584 14.112C3.27 14.112 2.969 14.082 2.668 14.027C3.299 15.99 5.113 17.432 7.272 17.472C5.592 18.81 3.463 19.609 1.17 19.609C0.78 19.609 0.391 19.586 0 19.541C2.189 20.947 4.768 21.75 7.557 21.75C16.611 21.75 21.556 14.201 21.556 7.731C21.556 7.527 21.556 7.323 21.543 7.119C22.505 6.411 23.341 5.544 24 4.59L23.953 4.57Z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Your Name"
+                class="form-input glass-mini"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                placeholder="Your Email"
+                class="form-input glass-mini"
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                placeholder="Your Message"
+                rows="5"
+                class="form-input glass-mini"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content glass-card">
+          <p>&copy; 2026 Portfolio. Designed & Built with passion</p>
+          <p class="footer-school">Grafish Lyceum Rotterdam</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

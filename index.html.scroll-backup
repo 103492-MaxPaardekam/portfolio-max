@@ -1,0 +1,848 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Max Paardekam - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- macOS Menu Bar -->
+    <div class="menu-bar">
+      <div class="menu-bar-content">
+        <div class="menu-left">
+          <div class="apple-logo">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.1 22C7.79 22.05 6.8 20.68 5.96 19.47C4.25 17 2.94 12.45 4.7 9.39C5.57 7.87 7.13 6.91 8.82 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5M13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"
+              />
+            </svg>
+          </div>
+          <div class="menu-items">
+            <span class="menu-item active">Portfolio</span>
+            <span class="menu-item">File</span>
+            <span class="menu-item">View</span>
+          </div>
+        </div>
+        <div class="menu-right">
+          <span class="time" id="menuTime">Sun Feb 2 3:45 PM</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="background">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+      <div class="mesh-gradient"></div>
+    </div>
+
+    <!-- Desktop Wrapper -->
+    <div class="desktop-wrapper">
+      <!-- Hero Window -->
+      <section id="home" class="window-section hero-window">
+        <div class="window">
+          <div class="window-titlebar">
+            <div class="window-controls">
+              <span class="window-control close"></span>
+              <span class="window-control minimize"></span>
+              <span class="window-control maximize"></span>
+            </div>
+            <div class="window-title">Max_Paardekam.portfolio</div>
+            <div class="window-actions"></div>
+          </div>
+          <div class="window-content hero-content">
+            <div class="hero-grid">
+              <div class="hero-text">
+                <div class="text-reveal">
+                  <span class="greeting">Hello, I'm</span>
+                  <h1 class="name">Max Paardekam</h1>
+                  <p class="subtitle">
+                    <span class="age-badge">18</span>
+                    <span class="separator">·</span>
+                    <span>Student at Grafish Lyceum Rotterdam</span>
+                  </p>
+                  <p class="description">
+                    Creative front-end developer crafting beautiful digital
+                    experiences with cutting-edge technology and modern design
+                    principles.
+                  </p>
+                </div>
+                <div class="hero-cta">
+                  <a href="#projects" class="macos-btn primary">
+                    <span>View My Work</span>
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                  </a>
+                  <a href="#contact" class="macos-btn secondary">
+                    <span>Get In Touch</span>
+                  </a>
+                </div>
+                <div class="hero-stats">
+                  <div class="stat-pill">
+                    <span class="stat-value">10+</span>
+                    <span class="stat-label">Projects</span>
+                  </div>
+                  <div class="stat-pill">
+                    <span class="stat-value">2+</span>
+                    <span class="stat-label">Years Coding</span>
+                  </div>
+                  <div class="stat-pill">
+                    <span class="stat-value">100%</span>
+                    <span class="stat-label">Passionate</span>
+                  </div>
+                </div>
+              </div>
+              <div class="hero-visual">
+                <div class="floating-card card-1">
+                  <div class="code-preview">
+                    <div class="code-header">
+                      <span class="code-lang">JavaScript</span>
+                    </div>
+                    <div class="code-line">
+                      <span class="keyword">const</span>
+                      <span class="var">developer</span> = {
+                    </div>
+                    <div class="code-line">
+                      name: <span class="string">'Max'</span>,
+                    </div>
+                    <div class="code-line">
+                      passion: <span class="string">'Coding'</span>,
+                    </div>
+                    <div class="code-line">};</div>
+                  </div>
+                </div>
+                <div class="floating-card card-2">
+                  <div class="profile-card">
+                    <div class="profile-avatar">
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <circle cx="12" cy="8" r="5" />
+                        <path d="M20 21a8 8 0 1 0-16 0" />
+                      </svg>
+                    </div>
+                    <div class="profile-info">
+                      <div class="profile-name">Max Paardekam</div>
+                      <div class="profile-role">Front-end Developer</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="floating-card card-3">
+                  <div class="achievement-badge">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                      />
+                    </svg>
+                    <span>Top Performer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Window -->
+      <section id="about" class="window-section">
+        <div class="window">
+          <div class="window-titlebar">
+            <div class="window-controls">
+              <span class="window-control close"></span>
+              <span class="window-control minimize"></span>
+              <span class="window-control maximize"></span>
+            </div>
+            <div class="window-title">About_Me.md</div>
+          </div>
+          <div class="window-content">
+            <div class="about-layout">
+              <div class="about-sidebar">
+                <div class="profile-image-container">
+                  <div class="profile-image">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <circle cx="12" cy="8" r="5" />
+                      <path d="M20 21a8 8 0 1 0-16 0" />
+                    </svg>
+                  </div>
+                  <div class="status-indicator online"></div>
+                </div>
+                <h2 class="about-name">Max Paardekam</h2>
+                <p class="about-title">Student & Developer</p>
+                <div class="info-list">
+                  <div class="info-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"
+                      />
+                      <circle cx="12" cy="10" r="3" />
+                    </svg>
+                    <span>Rotterdam, NL</span>
+                  </div>
+                  <div class="info-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <circle cx="12" cy="12" r="10" />
+                      <path d="M12 6v6l4 2" />
+                    </svg>
+                    <span>18 years old</span>
+                  </div>
+                  <div class="info-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <circle cx="12" cy="12" r="10" />
+                      <path d="m9 12 2 2 4-4" />
+                    </svg>
+                    <span>Available for hire</span>
+                  </div>
+                </div>
+              </div>
+              <div class="about-content">
+                <h3 class="content-title">About Me</h3>
+                <div class="about-text">
+                  <p>
+                    I'm an 18-year-old student at
+                    <strong>Grafish Lyceum Rotterdam</strong>, passionate about
+                    creating stunning web experiences that push the boundaries
+                    of what's possible with modern web technologies.
+                  </p>
+                  <p>
+                    My journey in web development started with a curiosity about
+                    how beautiful websites work, and has evolved into a passion
+                    for crafting pixel-perfect, responsive designs that users
+                    love. I specialize in front-end development with a keen eye
+                    for design and user experience.
+                  </p>
+                  <p>
+                    When I'm not coding, you'll find me exploring the latest
+                    design trends, contributing to open-source projects, or
+                    experimenting with new frameworks and technologies.
+                  </p>
+                </div>
+                <div class="expertise-tags">
+                  <span class="tag">UI/UX Design</span>
+                  <span class="tag">Web Development</span>
+                  <span class="tag">Responsive Design</span>
+                  <span class="tag">Modern CSS</span>
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">Problem Solving</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Window -->
+      <section id="skills" class="window-section">
+        <div class="window">
+          <div class="window-titlebar">
+            <div class="window-controls">
+              <span class="window-control close"></span>
+              <span class="window-control minimize"></span>
+              <span class="window-control maximize"></span>
+            </div>
+            <div class="window-title">Skills_&_Technologies.app</div>
+          </div>
+          <div class="window-content">
+            <h2 class="section-heading">Skills & Technologies</h2>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <div class="skill-icon html">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M12 18.178l-4.62-1.256-.328-3.544h2.27l.158 1.844 2.52.667 2.52-.667.26-2.866H6.96l-.635-6.678h11.35l-.227 2.21H8.822l.204 2.256h8.217l-.624 6.778z"
+                      />
+                      <path
+                        d="M4.07 3h15.86L18.5 19.5 12 21l-6.5-1.5L4.07 3z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <h4>HTML & CSS</h4>
+                    <p>Expert in semantic HTML5 and modern CSS3</p>
+                  </div>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-progress="90"></div>
+                  </div>
+                  <span class="skill-percentage">90%</span>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-header">
+                  <div class="skill-icon js">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M3 3h18v18H3V3zm16.525 13.707c-.131-.821-.666-1.511-2.252-2.155-.552-.259-1.165-.438-1.349-.854-.068-.248-.078-.382-.034-.529.113-.484.687-.629 1.137-.495.293.09.563.315.732.676.775-.507.775-.507 1.316-.844-.203-.314-.304-.451-.439-.586-.473-.528-1.103-.798-2.126-.775l-.528.067c-.507.124-.991.395-1.283.754-.855.968-.611 2.655.427 3.354 1.023.765 2.521.933 2.712 1.653.18.878-.652 1.159-1.475 1.058-.607-.136-.945-.439-1.316-1.002l-1.372.788c.157.359.337.517.607.832 1.305 1.316 4.568 1.249 5.153-.754.021-.067.18-.528.056-1.237l.034.049zm-6.737-5.434h-1.686c0 1.453-.007 2.898-.007 4.354 0 .924.047 1.772-.104 2.033-.247.517-.886.451-1.175.359-.297-.146-.448-.349-.623-.641-.047-.078-.082-.146-.095-.146l-1.368.844c.229.473.563.879.994 1.137.641.383 1.502.507 2.404.305.588-.17 1.095-.519 1.358-1.059.384-.697.302-1.553.299-2.509.008-1.541 0-3.083 0-4.635l.003-.042z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <h4>JavaScript</h4>
+                    <p>Modern ES6+, DOM manipulation & APIs</p>
+                  </div>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-progress="85"></div>
+                  </div>
+                  <span class="skill-percentage">85%</span>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-header">
+                  <div class="skill-icon design">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <rect x="3" y="3" width="18" height="18" rx="2" />
+                      <path d="M3 9h18M9 21V9" />
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <h4>Responsive Design</h4>
+                    <p>Mobile-first, fluid layouts for all devices</p>
+                  </div>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-progress="88"></div>
+                  </div>
+                  <span class="skill-percentage">88%</span>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-header">
+                  <div class="skill-icon ui">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"
+                      />
+                      <polyline points="7.5 4.21 12 6.81 16.5 4.21" />
+                      <polyline points="7.5 19.79 7.5 14.6 3 12" />
+                      <polyline points="21 12 16.5 14.6 16.5 19.79" />
+                      <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+                      <line x1="12" y1="22.08" x2="12" y2="12" />
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <h4>UI/UX Design</h4>
+                    <p>User-centered design & prototyping</p>
+                  </div>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-progress="82"></div>
+                  </div>
+                  <span class="skill-percentage">82%</span>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-header">
+                  <div class="skill-icon git">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.713.721.713 1.883 0 2.6-.719.721-1.889.721-2.609 0-.719-.719-.719-1.879 0-2.598.182-.18.387-.316.605-.406V8.835c-.217-.091-.424-.222-.605-.401-.545-.545-.676-1.342-.396-2.009L7.636 3.7.45 10.881c-.6.605-.6 1.584 0 2.189l10.48 10.477c.604.604 1.582.604 2.186 0l10.43-10.43c.605-.603.605-1.582 0-2.187"
+                      />
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <h4>Git & GitHub</h4>
+                    <p>Version control & collaboration</p>
+                  </div>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-progress="80"></div>
+                  </div>
+                  <span class="skill-percentage">80%</span>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-header">
+                  <div class="skill-icon perf">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <h4>Performance</h4>
+                    <p>Optimization & best practices</p>
+                  </div>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-progress="83"></div>
+                  </div>
+                  <span class="skill-percentage">83%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Window -->
+      <section id="projects" class="window-section">
+        <div class="window">
+          <div class="window-titlebar">
+            <div class="window-controls">
+              <span class="window-control close"></span>
+              <span class="window-control minimize"></span>
+              <span class="window-control maximize"></span>
+            </div>
+            <div class="window-title">Featured_Projects</div>
+          </div>
+          <div class="window-content">
+            <h2 class="section-heading">Featured Projects</h2>
+            <div class="projects-grid">
+              <div class="project-card">
+                <div class="project-window">
+                  <div class="project-preview">
+                    <div class="project-mockup">
+                      <div class="mockup-browser">
+                        <div class="mockup-bar">
+                          <div class="mockup-dots">
+                            <span></span><span></span><span></span>
+                          </div>
+                        </div>
+                        <div class="mockup-content gradient-1"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-info">
+                    <h3>Modern Web App</h3>
+                    <p>
+                      A sleek, responsive web application with advanced
+                      animations and glassmorphism effects
+                    </p>
+                    <div class="project-tech">
+                      <span class="tech-badge">HTML5</span>
+                      <span class="tech-badge">CSS3</span>
+                      <span class="tech-badge">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                      <a href="#" class="project-link">
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                        >
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          />
+                          <polyline points="15 3 21 3 21 9" />
+                          <line x1="10" y1="14" x2="21" y2="3" />
+                        </svg>
+                        <span>Live Demo</span>
+                      </a>
+                      <a href="#" class="project-link secondary">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                          <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                          />
+                        </svg>
+                        <span>GitHub</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-card">
+                <div class="project-window">
+                  <div class="project-preview">
+                    <div class="project-mockup">
+                      <div class="mockup-browser">
+                        <div class="mockup-bar">
+                          <div class="mockup-dots">
+                            <span></span><span></span><span></span>
+                          </div>
+                        </div>
+                        <div class="mockup-content gradient-2"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-info">
+                    <h3>E-Commerce Platform</h3>
+                    <p>
+                      Full-featured e-commerce landing page with interactive
+                      product showcases and smooth scrolling
+                    </p>
+                    <div class="project-tech">
+                      <span class="tech-badge">React</span>
+                      <span class="tech-badge">Tailwind</span>
+                      <span class="tech-badge">API</span>
+                    </div>
+                    <div class="project-links">
+                      <a href="#" class="project-link">
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                        >
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          />
+                          <polyline points="15 3 21 3 21 9" />
+                          <line x1="10" y1="14" x2="21" y2="3" />
+                        </svg>
+                        <span>Live Demo</span>
+                      </a>
+                      <a href="#" class="project-link secondary">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                          <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                          />
+                        </svg>
+                        <span>GitHub</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-card">
+                <div class="project-window">
+                  <div class="project-preview">
+                    <div class="project-mockup">
+                      <div class="mockup-browser">
+                        <div class="mockup-bar">
+                          <div class="mockup-dots">
+                            <span></span><span></span><span></span>
+                          </div>
+                        </div>
+                        <div class="mockup-content gradient-3"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-info">
+                    <h3>Dashboard UI</h3>
+                    <p>
+                      Beautiful admin dashboard with data visualization and
+                      real-time updates
+                    </p>
+                    <div class="project-tech">
+                      <span class="tech-badge">Vue.js</span>
+                      <span class="tech-badge">Chart.js</span>
+                      <span class="tech-badge">CSS Grid</span>
+                    </div>
+                    <div class="project-links">
+                      <a href="#" class="project-link">
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                        >
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          />
+                          <polyline points="15 3 21 3 21 9" />
+                          <line x1="10" y1="14" x2="21" y2="3" />
+                        </svg>
+                        <span>Live Demo</span>
+                      </a>
+                      <a href="#" class="project-link secondary">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                          <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                          />
+                        </svg>
+                        <span>GitHub</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Window -->
+      <section id="contact" class="window-section">
+        <div class="window">
+          <div class="window-titlebar">
+            <div class="window-controls">
+              <span class="window-control close"></span>
+              <span class="window-control minimize"></span>
+              <span class="window-control maximize"></span>
+            </div>
+            <div class="window-title">Contact.mail</div>
+          </div>
+          <div class="window-content">
+            <h2 class="section-heading">Get In Touch</h2>
+            <div class="contact-layout">
+              <div class="contact-info-panel">
+                <h3>Let's Connect</h3>
+                <p>
+                  I'm always open to discussing new projects, creative ideas, or
+                  opportunities to be part of your vision.
+                </p>
+
+                <div class="contact-methods">
+                  <a href="mailto:max@example.com" class="contact-method">
+                    <div class="method-icon">
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <rect x="2" y="4" width="20" height="16" rx="2" />
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                      </svg>
+                    </div>
+                    <div class="method-text">
+                      <span class="method-label">Email</span>
+                      <span class="method-value">paardekam.max@gmail.com</span>
+                    </div>
+                  </a>
+
+                  <a href="#" class="contact-method">
+                    <div class="method-icon">
+                      <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                          d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                        />
+                      </svg>
+                    </div>
+                    <div class="method-text">
+                      <span class="method-label">LinkedIn</span>
+                      <span class="method-value">Max Paardekam</span>
+                    </div>
+                  </a>
+
+                  <a href="#" class="contact-method">
+                    <div class="method-icon">
+                      <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                          d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                        />
+                      </svg>
+                    </div>
+                    <div class="method-text">
+                      <span class="method-label">GitHub</span>
+                      <span class="method-value">@103492-MaxPaardekam</span>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="availability-status">
+                  <div class="status-indicator online"></div>
+                  <span>Available for opportunities</span>
+                </div>
+              </div>
+
+              <form class="contact-form" id="contactForm">
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Your name"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="your@email.com"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="What's this about?"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    placeholder="Tell me about your project..."
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="macos-btn primary submit-btn">
+                  <span>Send Message</span>
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <line x1="22" y1="2" x2="11" y2="13" />
+                    <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- macOS Dock -->
+    <div class="dock">
+      <div class="dock-container">
+        <a href="#home" class="dock-item" data-tooltip="Home">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+            <polyline points="9 22 9 12 15 12 15 22" />
+          </svg>
+        </a>
+        <a href="#about" class="dock-item" data-tooltip="About">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <line x1="12" y1="16" x2="12" y2="12" />
+            <line x1="12" y1="8" x2="12.01" y2="8" />
+          </svg>
+        </a>
+        <a href="#skills" class="dock-item" data-tooltip="Skills">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+            <polyline points="22 4 12 14.01 9 11.01" />
+          </svg>
+        </a>
+        <a href="#projects" class="dock-item" data-tooltip="Projects">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <rect x="2" y="7" width="20" height="14" rx="2" />
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+          </svg>
+        </a>
+        <a href="#contact" class="dock-item" data-tooltip="Contact">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <rect x="2" y="4" width="20" height="16" rx="2" />
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+          </svg>
+        </a>
+        <div class="dock-separator"></div>
+        <a
+          href="https://github.com"
+          class="dock-item"
+          data-tooltip="GitHub"
+          target="_blank"
+        >
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+            />
+          </svg>
+        </a>
+        <a
+          href="https://linkedin.com"
+          class="dock-item"
+          data-tooltip="LinkedIn"
+          target="_blank"
+        >
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>
+        &copy; 2026 Max Paardekam · Designed & Built with passion at Grafish
+        Lyceum Rotterdam
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
